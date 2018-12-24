@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <litepal>
+        <dbname android:value="cool_weather" />
+        <version android:value="1"/>
+    <list>
+        <mapping class="com.coolweather.app.db.Province"/>
+         <mapping class="com.coolweather.app.db.City"/>
+         <mapping class="com.coolweather.app.db.County"/>
+         </list>
+
+</litepal>
+
+</LinearLayout>
